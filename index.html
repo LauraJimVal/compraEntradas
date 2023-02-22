@@ -12,8 +12,18 @@
 </head>
 
 <body>
-    Entradas: <input type="number" min=1 max=20 id="entradas_num">
-    <input type="button" onclick="entradas();" value= "Ver total">
-    <div id="precio"></div> 
+    <div class="card" style="width: 18rem;">
+        <img src="img/musician.jpg" class="card-img-top" alt="musico tocando guitarra">
+        <div class="card-body">
+            <h5 class="card-title">Concierto tributo</h5>
+            <p class="card-text">El precio de tus entradas en función de la cantidad que compres! Disfruta del concierto con los tuyos a un precio inmejorable! </p>
+            Número de entradas: <input type="number" min=1 max=20 id="entradas_num">
+            <br>
+            <br>
+            <a href="#" class="btn btn-primary" onclick="entradas();">Comprar</a>
+            
+            <div id="precio"></div> 
+        </div>
+      </div>
 </body>
 </html>
