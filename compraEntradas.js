@@ -29,3 +29,7 @@ function entradas(){
     }  
     document.getElementById("precio").innerHTML = mensaje; 
 }
+
+function vaciarCarrito(){
+    document.getElementById("precio").remove();
+}
